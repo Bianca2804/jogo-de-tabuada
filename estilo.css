@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "pipoco" ;
+    src: url(fonte/Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+}
+@font-face {
+    font-family: "Pixel";
+    src: url(fonte/PressStart2P-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}    body{
+        background-image: url(imagens/fundo2.jpg);
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-color: #00013F;
+    margin: 100px;
+    border: solid 2px cyan;
+    border-radius: 20px;
+    padding: 2px;
+    height: 600px;
+    color: lightgreen;
+    font-family: "Pixel";
+    box-shadow: 10px 10px cyan;
+}
+.conta{
+    font-family: "pipoco";
+    font-size: 50px;
+    display: flex;
+    gap: 5px;
+   
+}
+
+.pontos{
+    display: flex;
+    gap: 30px;
+}
+
+.pontos>div>p{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#btiniciar{
+    font-family: "Pixel";
+   color:lightgreen;
+    background-color: transparent;
+}
+
+#btconferir{
+    font-family: "Pixel";
+    color: lightgreen;
+    background-color: transparent;
+}
+
+form>div>p{
+    margin-bottom: 25px;
+ margin-top: 25px;
+}
+#respUser{
+    height: 30px;
+     border: solid 2px cyan;
+    border-radius: 20px;
+ margin-bottom: 25px;
+}
+
